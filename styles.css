@@ -201,6 +201,12 @@ html{
     padding-left:50px;
     padding-bottom: 30px;
 }
+
+.copyright{
+  color:grey; 
+  text-align: center; 
+}
+
 @media only screen and (max-width:767px){
     .footer{
         background-color: #e3f2fd; 
