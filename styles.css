@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color:#ffffff; /* fallback for old browsers */
+  margin-right: 0px;
+  padding-right: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+.navbar-toggler:focus{
+    
+    box-shadow:none;
+    text-decoration: none;
+}
+.navbar-logo{
+    color:#ffffff;
+    padding: 15px;
+    font-size:x-large;
+}
+
+.navbar-mainbg {
+    background-color:black;
+   
+}
+
+.navbar-mainbg>a:hover{
+ text-decoration: none;
+ color: white;
+}
+
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    
+    color:black;
+    font-size: larger;
+    background-color: white;
+    box-sizing: content-box;
+    height:100%;
+   
+    margin-top:0px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.collapse>a{
+    color:white;
+}
+.collapse>a:hover{
+    font-size: x-large;
+    color:black;
+    background-color: white;
+    box-sizing: content-box;
+    
+
+}
+.collapse>ul{
+    list-style-type: none;
+}
+
+
+
+.main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center;
+}
+.div1 {
+ flex: 50%;
+ 
+}
+.div1>img{
+    padding:10px;
+    margin-right:auto;
+    margin-left: auto;
+    width: 80%;
+}
+.div2{
+    flex:50%;
+    background-color:white;
+    padding:50px;
+   
+    margin:20px;
+    
+    border-radius:40px;
+}
+
+.div2>.btn,.div3>.btn{
+    border-radius: 20px; width:300px; height:70px;
+}
+
+.div2>.btn:hover, .div3>.btn:hover{
+    box-shadow: 0px 0px 4px 4px rgba(34, 33, 33, 0.45);
+    background-color: rgb(36, 35, 35);
+}
+
+.div2>.btn>a, .div3>.btn>a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+.div2>.btn>a:hover , .div3>.btn>a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.desc{
+    line-height:40px; 
+    font-size:medium; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.strong-1{
+    font-weight:800; 
+    font-size: 24px;   
+    font-family:'Arial',Courier, monospace;
+}
+.heading-div{
+    border-bottom: solid rgb(194, 194, 194) 2px; 
+    padding:30px;
+
+}
+.heading{
+    font-weight: 1000; 
+    font-size: xx-large;
+}
+.card{
+    width: 90%; 
+    padding:20x; 
+    margin-left: auto; 
+    margin-right: auto;
+    box-shadow: 0px 0px 4px 4px rgba(34, 33, 33, 0.45);
+}
+.card:hover{
+    box-shadow: 0px 0px 4px 4px rgba(13, 110, 253, 0.45);
+}
+.card-title{
+    font-weight: 800;
+    font-family: 'Arial';
+}
+.card-link{
+    text-decoration: none;
+
+}
+.card-link:hover{
+    text-decoration: underline;
+}
+.work>.card:hover{
+    box-shadow:none;
+}
+.footer{
+    background-color: #e3f2fd; 
+    border-top-right-radius: 6vw; 
+    border-top-left-radius: 6vw; 
+}
+.footer-heading{
+    color:rgb(62, 67, 71); 
+    font-size: large; 
+    font-weight:800; 
+    font-family:'Arial';
+}
+.footer-content{
+    color:rgb(6,6,136); 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 1000; 
+    font-size:14px; 
+    padding-top:20px; 
+   
+}
+.contact{
+    padding-top:50px;
+    padding-left:50px;
+    padding-bottom: 30px;
+    
+}
+.Address{
+    padding-top:50px;
+    padding-left:50px;
+    padding-bottom: 30px;
+}
+.social-media{
+    padding-top: 50px;
+    padding-left:50px;
+    padding-bottom: 30px;
+}
+.community{
+    padding-top: 50px;
+    padding-left:50px;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width:767px){
+    .footer{
+        background-color: #e3f2fd; 
+        border-top-right-radius: 15vw; 
+        border-top-left-radius: 15vw; 
+    }
+    .main{
+        display:flex;
+        flex-direction: column;
+    }
+    .div1 {
+        flex: 100%;
+        margin:none;
+       }
+       .div1>img{
+        padding:10px;
+        
+       
+        width: 100%;
+    }
+       .div2{
+        flex:100%;
+    }
+    .contact{
+        padding-top:50px;
+        padding-left:50px;
+       
+    }
+    .Address{
+        
+        
+        padding-top:20px;
+        padding-left:50px;
+    }
+    .social-media{
+        padding-top: 20px;
+        padding-left:50px;
+    }
+    .community{
+        padding-top: 20px;
+        padding-left:50px;
+        
+    }
+}
